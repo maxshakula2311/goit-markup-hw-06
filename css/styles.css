@@ -1,3 +1,5 @@
+/* -------------MAIN STYLES--------------- */
+
 h1,
 h2,
 h3,
@@ -13,24 +15,55 @@ ul {
 img {
   display: block;
 }
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #fff;
+}
 .container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-}
-.head {
-  display: flex;
-  align-items: center;
 }
 .section {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.sect-heading {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+
+
+/* ---------------HEADER--------------- */
+
 .header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.head {
+  display: flex;
+  align-items: center;
 }
 .nav {
   display: flex;
@@ -106,12 +139,12 @@ img {
 .address-link:focus {
   color: #404bbf;
 }
-body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #fff;
-}
-.mainsection {
+
+
+
+/* ---------------HERO--------------- */
+
+.hero {
   background-color: #2e2f42;
   padding: 188px 0;
   background-image: linear-gradient(
@@ -123,7 +156,7 @@ body {
   background-position: center;
   background-size: cover;
 }
-.main-heading {
+.hero-heading {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -132,7 +165,7 @@ body {
   margin: 0 auto;
   max-width: 496px;
 }
-.button {
+.hero-button {
   display: block;
   background-color: #4d5ae5;
   color: #fff;
@@ -150,28 +183,21 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button:hover {
+.hero-button:hover {
   background-color: #404bbf;
 }
 
-.button:focus {
+.hero-button:focus {
   background-color: #404bbf;
 }
-.advsection {
+
+
+
+/* ------------ADVANTAGES------------ */
+
+.adv {
   padding-top: 120px;
   padding-bottom: 120px;
-}
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 .advlist {
   display: flex;
@@ -191,7 +217,7 @@ body {
   background-color: #f4f4fd;
   margin-bottom: 8px;
 }
-.secondary-heading {
+.adv-heading {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
@@ -205,19 +231,14 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.team-section {
+
+
+
+/* ---------------TEAM--------------- */
+.team {
   background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
-}
-.sect-heading {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-  margin-bottom: 72px;
 }
 .teamlist {
   display: flex;
@@ -245,6 +266,9 @@ body {
   text-align: center;
   padding: 32px 0;
 }
+
+/* ---------SOCIALS--------- */
+
 .sociconlist {
   display: flex;
   justify-content: center;
@@ -274,7 +298,12 @@ body {
   fill: #f4f4fd;
   stroke: #f4f4fd;
 }
-.downsection {
+
+
+
+/* ---------------DOWN PLATES------------- */
+
+.down {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -333,6 +362,11 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+
+
+/* ---------------FOOTER--------------- */
+
 .footer {
   background-color: #2e2f42;
   padding-top: 100px;
@@ -460,6 +494,11 @@ body {
   margin-left: 16px;
   fill: #fff;
 }
+
+
+
+/* ------------------POP-UP FORM------------------ */
+
 .backdrop {
   background-color: rgba(46, 47, 66, 0.4);
   position: fixed;
@@ -617,12 +656,6 @@ body {
     fill: #f4f4fd;
   
 }
-/* .form-checkbox-box:checked
-  + .form-checkbox-label
-  .form-checkbox
-  .form-checkmark {
-  fill: #f4f4fd;
-} */
 .form-privpol {
   color: #4d5ae5;
 }
@@ -651,3 +684,5 @@ body {
 .form-button:focus {
   background-color: #404bbf;
 }
+
+/* ------------------------END------------------------ */
