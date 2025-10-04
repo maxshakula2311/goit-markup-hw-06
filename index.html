@@ -125,7 +125,7 @@
           <button type="button" class="button">Order Service</button>
         </div>
       </section>
-      <!-- <section class="advsection section">
+      <section class="advsection section">
         <div class="container">
           <h2 class="visually-hidden">Our advantages</h2>
           <ul class="advlist">
@@ -135,7 +135,7 @@
                   <use href="./images/icons.svg#icon-antenna-1"></use>
                 </svg>
               </div>
-              <h3 class="secondary-heading">Strategy</h3>
+              <h3 class="adv-heading">Strategy</h3>
               <p class="paragraph">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
@@ -147,7 +147,7 @@
                   <use href="./images/icons.svg#icon-clock-1"></use>
                 </svg>
               </div>
-              <h3 class="secondary-heading">Punctuality</h3>
+              <h3 class="adv-heading">Punctuality</h3>
               <p class="paragraph">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
@@ -159,7 +159,7 @@
                   <use href="./images/icons.svg#icon-diagram-1"></use>
                 </svg>
               </div>
-              <h3 class="secondary-heading">Diligence</h3>
+              <h3 class="adv-heading">Diligence</h3>
               <p class="paragraph">
                 Research and confirm brands with the strongest digital growth
                 opportunities and minimize risk.
@@ -171,7 +171,7 @@
                   <use href="./images/icons.svg#icon-astronaut-1"></use>
                 </svg>
               </div>
-              <h3 class="secondary-heading">Technologies</h3>
+              <h3 class="adv-heading">Technologies</h3>
               <p class="paragraph">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
@@ -186,13 +186,14 @@
           <ul class="teamlist">
             <li class="teamcard">
               <img
+                srcset="./images/worker1opt.jpg 1x, ./images/worker1-2x.jpg 2x"
                 src="./images/worker1opt.jpg"
                 alt="Mark Guerrero"
                 width="264"
               />
               <div class="cardtext">
                 <h3 class="secondary-heading">Mark Guerrero</h3>
-                <p class="paragraph">Product Designer</p>
+                <p class="teamcard-paragraph">Product Designer</p>
                 <ul class="sociconlist">
                   <li class="socbox">
                     <a href="#" class="soclink">
@@ -226,10 +227,12 @@
               </div>
             </li>
             <li class="teamcard">
-              <img src="./images/worker2opt.jpg" alt="Tom Ford" width="264" />
+              <img 
+              srcset="./images/worker2opt.jpg 1x, ./images/worker2-2x.jpg 2x"
+              src="./images/worker2opt.jpg" alt="Tom Ford" width="264" />
               <div class="cardtext">
                 <h3 class="secondary-heading">Tom Ford</h3>
-                <p class="paragraph">Frontend Developer</p>
+                <p class="teamcard-paragraph">Frontend Developer</p>
                 <ul class="sociconlist">
                   <li class="socbox">
                     <a href="#" class="soclink">
@@ -264,13 +267,14 @@
             </li>
             <li class="teamcard">
               <img
+                srcset="./images/worker3opt.jpg 1x, ./images/worker3-2x.jpg 2x"
                 src="./images/worker3opt.jpg"
                 alt="Camila Garcia"
                 width="264"
               />
               <div class="cardtext">
                 <h3 class="secondary-heading">Camila Garcia</h3>
-                <p class="paragraph">Marketing</p>
+                <p class="teamcard-paragraph">Marketing</p>
                 <ul class="sociconlist">
                   <li class="socbox">
                     <a href="#" class="soclink">
@@ -305,13 +309,14 @@
             </li>
             <li class="teamcard">
               <img
+                srcset="./images/worker4opt.jpg 1x, ./images/worker4-2x.jpg 2x"
                 src="./images/worker4opt.jpg"
                 alt="Daniel Wilson"
                 width="264"
               />
               <div class="cardtext">
                 <h3 class="secondary-heading">Daniel Wilson</h3>
-                <p class="paragraph">UI Designer</p>
+                <p class="teamcard-paragraph">UI Designer</p>
                 <ul class="sociconlist">
                   <li class="socbox">
                     <a href="#" class="soclink">
@@ -353,11 +358,25 @@
           <ul class="downlist">
             <li class="downcard">
               <div class="downimgbox">
-                <img
+                <picture>
+                  <source
+                  srcset="./images/cardport1-mobile.jpg 1x, ./images/cardport1-mobile-2x.jpg 2x"
+                  media="(min-width: 320px)"
+                  />
+                  <source
+                  srcset="./images/cardport1-tab.jpg 1x, ./images/cardport1-tab-2x.jpg 2x"
+                  media="(min-width: 768px)"
+                  />
+                  <source
+                  srcset="./images/cardport1.jpg 1x, ./images/cardport1-2x.jpg 2x"
+                  media="(min-width: 1158px)"
+                  />
+                  <img
                   src="./images/cardport1.jpg"
                   alt="Banking picture"
                   width="360"
                 />
+                </picture>
                 <p class="covertext">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -371,11 +390,25 @@
             </li>
             <li class="downcard">
               <div class="downimgbox">
-                <img
+                <picture>
+                  <source
+                  srcset="./images/cardport2-mobile.jpg 1x, ./images/cardport2-mobile-2x.jpg 2x"
+                  media="(min-width: 320px)"
+                  />
+                  <source
+                  srcset="./images/cardport2-tab.jpg 1x, ./images/cardport2-tab-2x.jpg 2x"
+                  media="(min-width: 768px)"
+                  />
+                  <source
+                  srcset="./images/cardport2.jpg 1x, ./images/cardport2-2x.jpg 2x"
+                  media="(min-width: 1158px)"
+                  />
+                  <img
                   src="./images/cardport2.jpg"
                   alt="Payment picture"
                   width="360"
-                />
+                  />
+                </picture>
                 <p class="covertext">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -389,11 +422,25 @@
             </li>
             <li class="downcard">
               <div class="downimgbox">
-                <img
-                  src="./images/cardport3.jpg"
-                  alt="Meditation app"
-                  width="360"
-                />
+                <picture>
+                  <source
+                  srcset="./images/cardport3-mobile.jpg 1x, ./images/cardport3-mobile-2x.jpg 2x"
+                  media="(min-width: 320px)"
+                  />
+                  <source
+                  srcset="./images/cardport3-tab.jpg 1x, ./images/cardport3-tab-2x.jpg 2x"
+                  media="(min-width: 768px)"
+                  />
+                  <source
+                  srcset="./images/cardport3.jpg 1x, ./images/cardport3-2x.jpg 2x"
+                  media="(min-width: 1158px)"
+                  />
+                  <img
+                    src="./images/cardport3.jpg"
+                    alt="Meditation app"
+                    width="360"
+                  />
+                </picture>
                 <p class="covertext">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -407,11 +454,25 @@
             </li>
             <li class="downcard">
               <div class="downimgbox">
-                <img
-                  src="./images/cardport4.jpg"
-                  alt="Taxi picture"
-                  width="360"
-                />
+                <picture>
+                  <source
+                  srcset="./images/cardport4-mobile.jpg 1x, ./images/cardport4-mobile-2x.jpg 2x"
+                  media="(min-width: 320px)"
+                  />
+                  <source
+                  srcset="./images/cardport4-tab.jpg 1x, ./images/cardport4-tab-2x.jpg 2x"
+                  media="(min-width: 768px)"
+                  />
+                  <source
+                  srcset="./images/cardport4.jpg 1x, ./images/cardport4-2x.jpg 2x"
+                  media="(min-width: 1158px)"
+                  />
+                  <img
+                    src="./images/cardport4.jpg"
+                    alt="Taxi picture"
+                    width="360"
+                  />
+                </picture>
                 <p class="covertext">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -425,11 +486,25 @@
             </li>
             <li class="downcard">
               <div class="downimgbox">
-                <img
-                  src="./images/cardport5.jpg"
-                  alt="Screen photos"
-                  width="360"
-                />
+                <picture>
+                  <source
+                  srcset="./images/cardport5-mobile.jpg 1x, ./images/cardport5-mobile-2x.jpg 2x"
+                  media="(min-width: 320px)"
+                  />
+                  <source
+                  srcset="./images/cardport5-tab.jpg 1x, ./images/cardport5-tab-2x.jpg 2x"
+                  media="(min-width: 768px)"
+                  />
+                  <source
+                  srcset="./images/cardport5.jpg 1x, ./images/cardport5-2x.jpg 2x"
+                  media="(min-width: 1158px)"
+                  />
+                  <img
+                    src="./images/cardport5.jpg"
+                    alt="Screen photos"
+                    width="360"
+                  />
+                </picture>
                 <p class="covertext">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -443,11 +518,25 @@
             </li>
             <li class="downcard">
               <div class="downimgbox">
-                <img
-                  src="./images/cardport6.jpg"
-                  alt="Happy woman photo"
-                  width="360"
-                />
+                <picture>
+                  <source
+                  srcset="./images/cardport6-mobile.jpg 1x, ./images/cardport6-mobile-2x.jpg 2x"
+                  media="(min-width: 320px)"
+                  />
+                  <source
+                  srcset="./images/cardport6-tab.jpg 1x, ./images/cardport6-tab-2x.jpg 2x"
+                  media="(min-width: 768px)"
+                  />
+                  <source
+                  srcset="./images/cardport6.jpg 1x, ./images/cardport6-2x.jpg 2x"
+                  media="(min-width: 1158px)"
+                  />
+                  <img
+                    src="./images/cardport6.jpg"
+                    alt="Happy woman photo"
+                    width="360"
+                  />
+                </picture>
                 <p class="covertext">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -461,7 +550,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
 
     <!-- <footer class="footer">
