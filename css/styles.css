@@ -200,17 +200,23 @@ img {
     z-index: 999;
     display: flex;
     flex-direction: column;
-    padding-top: 72px;
-    padding-left: 16px;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+}
+.mobile-menu-cont {
+    position: relative;
+    height: 100%;
+    padding-top: 72px;
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
 }
 .mobile-nav-list {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  margin-bottom: 168px;
+  margin-bottom: 40px;
 }
 .mobile-link-nav {
   display: block;
@@ -283,6 +289,10 @@ img {
 .mobile-menu-close:hover .mobile-menu-cross,
 .mobile-menu-close:focus .mobile-menu-cross {
   fill: #ffffff;
+}
+.mobile-menu-bottom-box {
+  margin-top: auto;
+  margin-bottom: 40px;
 }
 .mobmenusoc {
     margin-top: 48px;
