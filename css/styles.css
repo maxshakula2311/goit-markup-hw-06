@@ -507,7 +507,7 @@ letter-spacing: 0.02em;
 
 .team-section {
   background-color: #f4f4fd;
-  margin-bottom: 96px;
+  padding-bottom: 96px;
 }
 .sect-heading {
   font-weight: 700;
