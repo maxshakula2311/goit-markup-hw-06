@@ -602,7 +602,7 @@ letter-spacing: 0.02em;
 }
 @media screen and (min-width: 1158px) {
   .team-section {
-    margin-bottom: 120px;
+    padding-bottom: 120px;
   }
   .sect-heading {
     padding-top: 120px;
